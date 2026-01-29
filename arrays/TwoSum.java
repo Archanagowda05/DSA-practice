@@ -7,7 +7,8 @@ class TwoSum {
                 if ((nums[i] + nums[j]) == target) {
                     arr[0] = i;
                     arr[1] = j;
-                    return arr; //if we don't return here we will continue to loop unnecessarily
+                    return arr; 
+                    //if we don't return here we will continue to loop unnecessarily
                 }
             }
         }
